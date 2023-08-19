@@ -6,13 +6,6 @@ import requests as requests
 from bs4 import BeautifulSoup
 
 
-# for page in range(1, 4):
-#     browser.get(
-#         f'https://legacy.curseforge.com/minecraft/modpacks/m-tech-1-19-2/files/all?page={page}')
-#     table = browser.find_element(By.XPATH,
-#                                  '/html/body/div[1]/main/div[1]/div[2]/section/div/div/div/section/div[2]/div/table/tbody').find_elements(
-#         By.XPATH, "./tr")
-
 def choose_file():
     root = tk.Tk()
     root.withdraw()
